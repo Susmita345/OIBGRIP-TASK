@@ -1,0 +1,53 @@
+.abc
+{
+    height:300px;
+    width:400px;
+    background-color:aqua;
+    margin-top:200px;
+    margin-left:400px;
+}
+.h2
+{
+    text-align:center;
+    font-size:30px;
+
+}
+.b1
+{
+	padding:15px;
+	background-color:gold;
+	color:black;
+	font-size:15px;
+	border: 0;
+	outline:none;
+	width:100px;
+    border-radius: 30px;
+    margin-right:40px;
+
+}
+.b2
+{
+	padding:15px;
+	background-color:gold;
+	color: black
+	font-size:15px;
+	border: 0;
+	outline:none;
+	width:100px;
+    border-radius: 30px;   
+}
+.xyz
+{
+    margin-top:50px;
+    margin-left:80px;
+    height:300px;
+    width:300px;
+}
+.h1
+{
+    color:black;
+    background-color: antiquewhite;
+    height:40px;
+    width:250px;
+    font-size:20px;
+}
