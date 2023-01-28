@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temprature Converter</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="abc">
+    <h2 class="h2">Temperature Converter</h2>
+    <center><input type="text" id="input" placeholder="Degrees"/></center>
+    <div class="xyz">
+
+    
+    <button class="b2" onclick="convToCelsius()">Celsius</button>
+    <button class="b1" onclick="convToFahrenheit()">Fahrenheit</button>
+    <h1 class="h1" id="demo" ></h1>
+   </div>
+</div>
+ <script>
+       
+        function convToCelsius(){
+            let fahrenheit= document.getElementById("input").value;
+            let celsius=5/9*(fahrenheit-32);
+            document.getElementById("demo").innerHTML ="Celsius="+celsius;
+        }
+        function convToFahrenheit() {
+        let celsius = document.getElementById("input").value;
+          let fahrenheit = (celsius * 9/5) + 32;
+          
+          document.getElementById("demo").innerHTML = "Fahrenheit="+fahrenheit;
+        }
+        
+    </script>
+</body>
+</html>
